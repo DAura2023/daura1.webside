@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+        <body>
+            <style>
+                body{
+                  background-color: non;
+                }
+                .input-button{
+                    background-color: rgb(167, 41, 83);
+                    color: white;
+                    border: none;
+                    height: 4ex;
+                    font-weight: 80;
+                    size: 0mm;
+                    left: 25;
+                    cursor: pointer;
+                }
+
+                .Username-button{
+                    background-color: darkblue;
+                    color: white;
+                    border: none;
+                    height: 4ex;
+                    size: 0mm;
+                    font-weight: 80;
+                    left: 25;
+                    line-height: 0rem;
+                    cursor: pointer;
+                }
+                
+                .Password-button{
+                    background-color: darkblue;
+                    color: wheat;
+                    border:none;
+                    height: 4ex;
+                    size: 9;
+                    line-height: inherit;
+                    left: 25;
+                    cursor: pointer;
+                }
+                button{
+                    background-color: rgb(109, 95, 17);
+                    border: darkviolet;
+                    border-bottom-color: green;
+                    border-style: outset;
+                }
+
+            </style>
+            <button class="button">
+            <a href="indox.html">Register </a><br>
+            <a href="daura.html">LOGIN </a>
+            <br> <br>
+            <br>
+              <label class="Username-button">
+                  Username</label>   
+              <input type="text" placeholde="Username" placeholder=" Username,email" 
+                name="Username"size="15" id="User" required name="User"/> <br> <br>
+              <label class="Password-button">
+                  Password</label>
+              <input type="password" placeholder=" password" id="myInput"><br><br>
+              <input type="checkbox" onclick="myFunction()">Show Password <a href="code.htm" target="blank" >forgot Password</a><br>
+              <input type="submit" onclick="auth()" >  
+              <br>
+             
+
+
+              <script>
+              function myFunction() {
+                  var x = 
+                  document.getElementById("myInput");
+                  if (x.type==="password"){
+                      x.type = "text";
+                  } else{
+                      x.type = "password";
+                  }
+              }
+                       function auth(){
+                           var Username , document,getElementById,value;
+                           var Password , document,getElementById,value;
+                           if(email="adminemail.com" && Password=="admin223"){
+                               window,location.assign("projecto2.html");
+                               alert("login successfull");
+                           } 
+                           else
+                           alert("invaild informrtion");
+                           return;
+                       }
+                   </script>
+        </body>
+    </head>
+</html>
+
+                    

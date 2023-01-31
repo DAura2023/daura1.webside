@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+        <body>
+            <style>
+                button{
+                    background-color: red;
+                    color: width ;
+                }
+                .label-button{
+                    background-color: rgb(48, 83, 48);
+                    margin-left: 10px;
+                    text-align: left;
+                    text-align-last: left;
+                    color: wheat;
+                }
+                input{
+                   color: black;
+                }
+                a{
+                    margin: 5px;
+                }
+                .submit-button{
+                    color: black;
+                }
+            </style>
+            <button >
+                <img src="avatar" alt="avatar.jpg"><br><br>
+                    <a class="a" href="indox.html">Home page </a> 
+                    <a href="daura.html">LOGIN </a>
+                    <br> <br>
+                <label class="label-button">
+                    Old Password</label>
+            
+                <input class="input" type="text" placeholder=" oldpassword" id="myInput3"><br><br>
+                <label class="label-button">
+                    Password</label>
+                
+                <input class="input" type="text" placeholder=" password" id="myInput1"><br><br>
+                <label class="label-button">
+                    Comfirmpassword</label>
+                
+                <input class="input" type="text" placeholder=" comfirmpassword" id="myInput2"><br><br>
+                <input class="Submit-button" type="submit"size="10" >
+                <input type="checkbox"onclick="myFunction()"> Show Password
+
+                <script>
+                    function myFunction() {
+                var x = 
+                document.getElementById("myInput1");
+        
+                if (x.type==="password"){
+                    x.type = "text";
+                } else{
+                    
+                    x.type = "password";
+                    
+                }
+            }
+                </script> 
+        </button>
+            
+                
